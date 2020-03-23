@@ -32,4 +32,3 @@ def isEven(n):
 
 	return bool(int(clf.predict([[n, n_remainder]])))
 
-print(isEven(4.8))
